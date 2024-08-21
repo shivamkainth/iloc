@@ -33,9 +33,9 @@ dataset/
 
 ### Dataset Details
 
-- **Total Images**: X,XXX
-- **Image Resolution**: XXXXxXXXX pixels
-- **Classes**: 1 (UAV)
+- **Total Images**:1623
+- **Image Resolution**: 1920x1080 pixels
+- **Classes**: 1 (enemy)
 
 ## Training YOLOv5
 
@@ -72,7 +72,7 @@ To train the YOLOv5 model on the UAV dataset:
    train: ../dataset/images/train
    val: ../dataset/images/val
    nc: 1  # number of classes
-   names: ['UAV']  # class names
+   names: ['enemy']  # class names
    ```
 
 2. Start training using the following command:
